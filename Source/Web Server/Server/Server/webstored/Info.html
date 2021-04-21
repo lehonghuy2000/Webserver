@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50.0%;
+  margin-bottom: 16px;
+  padding: 0 96px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 100, 100, 100);
+}
+
+.container {
+  padding: 0px 16px;
+}
+
+.h1 {
+  text-align: center;
+  color: #1F76CB;
+  padding: 15%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+</style>
+</head>
+<body>
+
+<h2>Members</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="http://192.168.137.1/thang.jpg" title="source: 18120558" hspace="150"/>
+      <div class="container">
+        <h2 align="center"> Võ Xuân Đức Thắng</h2>
+        <p class="title">Thành viên</p>
+       <p><span style="color: red">Sinh viên trường KHTN</span></p>
+        <p>MSSV: 18120558 </p>
+        <p>E-mail: <a href="">18120558@student.hcmus.edu.vn</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="http://192.168.137.1/huy.jpg" title="source: 18120182" hspace="150"/>
+      <div class="container">
+        <h2 align="center"> Lê Hồng Huy</h2>
+        <p class="title">Thành viên</p>
+        <p><span style="color: red">Sinh viên trường KHTN</span></p>
+        <p>MSSV: 18120182 </p>
+        <p>E-mail: <a href="">18120182@student.hcmus.edu.vn</a></p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
+

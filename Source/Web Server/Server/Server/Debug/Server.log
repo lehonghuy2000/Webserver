@@ -1,0 +1,8 @@
+﻿  Main.cpp
+  WebServer.cpp
+D:\Web Server\Server\Server\WebServer.cpp(25,20): warning C4018: '<': signed/unsigned mismatch
+D:\Web Server\Server\Server\WebServer.cpp(23,20): warning C4101: 'stLocal': unreferenced local variable
+D:\Web Server\Server\Server\WebServer.cpp(39,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+D:\Web Server\Server\Server\WebServer.cpp(45,17): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Server.vcxproj -> D:\Web Server\Server\Debug\Server.exe
